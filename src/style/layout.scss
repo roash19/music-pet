@@ -1,0 +1,62 @@
+.layout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.asideMenu {
+  width: 220px;
+  height: 100vh;
+  background-image: linear-gradient(180deg, #151b25 0%, #1c212b 100%);
+  padding: 30px 25px 25px 35px;
+}
+
+.main {
+  width: calc(100% - 220px);
+  background: url("../source/images/gorillaz-bg.png") center center no-repeat;
+  background-size: cover;
+  font-family: "Avenir Next Cyr";
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+
+.logo {
+  width: 25px;
+  height: 30px;
+  background: url("../source/images/logo.png") center center no-repeat;
+}
+
+.nav {
+  margin-top: 50px;
+
+  &__item {
+    margin-bottom: 15px;
+
+    &--title {
+      color: #ffffff;
+      font-family: "Avenir Next-Bold";
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 19px;
+    }
+
+    &:nth-child(5) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__link {
+    display: block;
+    width: 100%;
+    color: #b4cff2;
+    font-family: "Avenir Next - Regular";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+
+}
